@@ -51,7 +51,12 @@ class StringServer {
 **Relevant Arguments**: The request contains the path and query parameters, with s=How are you.  
 **Values Change**: The messageBuilder is updated to "1. Hello\n2. How are you\n" as the response.
 
-## Part2  
+## Part2 
+To get both the Private and the Public key, we first have to run the command ** ssh-keygen **  
+'ssh-keygen' is a standard component of the Secure Shell and it generates both the private and the public key.  
+1)   
+2)  
+3)  
 ## Part 3
 Both Week2 and Week3, taught me some new concepts and enhanced my knowledge.  
 The second week's subjects were ones I was unaware of. It was entirely new to me and rather interesting to use SSH to connect to a distant server.  
