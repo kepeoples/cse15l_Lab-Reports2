@@ -40,5 +40,20 @@ class StringServer {
         Server.start(port, new StringHandler());
     }
 } 
+```
+1)![Image1](ScreenShot1.png)
+    **Method Called**: A GET request to /add-message?s=Hello is made.  
+**Relevant Arguments**: The request contains the path and query parameters, with s=Hello.  
+**Values Change**: The messageStorage is updated with "1. Hello\n" as the response.  
 
+2)![Image2](ScreenShot2.png)
+**Method Called**: A GET request to /add-message?s=How are you is made.  
+**Relevant Arguments**: The request contains the path and query parameters, with s=How are you.  
+**Values Change**: The messageBuilder is updated to "1. Hello\n2. How are you\n" as the response.
+
+## Part2  
+## Part 3
+Both Week2 and Week3, taught me some new concepts and enhanced my knowledge.  
+The second week's subjects were ones I was unaware of. It was entirely new to me and rather interesting to use SSH to connect to a distant server.  
+I became familiar with the mkdir command, which lets users create directories, in week three.
 
