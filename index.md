@@ -62,7 +62,8 @@ To get both the Private and the Public key, we first have to run the command ** 
     ![Image2](Pic2.png)
 **In the above Image 'id_ed2559.pub' is where the public key is located.**
      
-3) *A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.*
+3) *A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.*  
+![Image3](Pic3.png)
 
 ## Part 3
 Both Week2 and Week3, taught me some new concepts and enhanced my knowledge.  
