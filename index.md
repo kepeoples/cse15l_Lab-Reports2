@@ -54,9 +54,16 @@ class StringServer {
 ## Part2 
 To get both the Private and the Public key, we first have to run the command ** ssh-keygen **  
 'ssh-keygen' is a standard component of the Secure Shell and it generates both the private and the public key.  
-1)   
-2)  
-3)  
+![Image1](Pic1.png)
+1) *The path to the private key for your SSH key for logging into ieng6.*
+    ![Image2](Pic2.png) 
+**In the above Image 'id_ed2559' is where the private key is located.**
+2) *The path to the public key for your SSH key for logging into ieng6.* 
+    ![Image2](Pic2.png)
+**In the above Image 'id_ed2559.pub' is where the public key is located.**
+     
+3) *A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.*
+
 ## Part 3
 Both Week2 and Week3, taught me some new concepts and enhanced my knowledge.  
 The second week's subjects were ones I was unaware of. It was entirely new to me and rather interesting to use SSH to connect to a distant server.  
