@@ -52,15 +52,22 @@ class StringServer {
 **Values Change**: The messageBuilder is updated to "1. Hello\n2. How are you\n" as the response.
 
 ## Part2 
-To get both the Private and the Public key, we first have to run the command ** ssh-keygen **  
-'ssh-keygen' is a standard component of the Secure Shell and it generates both the private and the public key.  
+To get both the Private and the Public key, we first have to run the command ** ssh-keygen **    
+This command will generate both the 'Private' & the 'Public' key.  
+'ssh-keygen' is a standard component of the Secure Shell and it generates both the private and the public key.  These steps are the pre-reuisites.  
 ![Image1](Pic1.png)
+In the above image, it says: **Your identification key has been in /home/ .ssh/id_ed25519; This identification key is the private key.**  
+Also, one of the line says: **Your public key has been in /home/ .ssh/id_ed25519.pub; This is the location where the public key is stored**
 1) *The path to the private key for your SSH key for logging into ieng6.*
-    ![Image2](Pic2.png) 
-**In the above Image 'id_ed2559' is where the private key is located.**
+    ![Image2](Pic2.png)   
+**In the above Image 'id_ed2559' is where the private key is located.**  
+We, can access this location our computer as well like I have done by changing the directory to .ssh by using the command **cd .ssh**. OR logging into the .ieng6 remote server.
+
 2) *The path to the public key for your SSH key for logging into ieng6.* 
-    ![Image2](Pic2.png)
-**In the above Image 'id_ed2559.pub' is where the public key is located.**
+    ![Image2](Pic2.png)  
+**In the above Image 'id_ed2559.pub' is where the public key is located.**  
+We can also reach this site from our computer by using the command **cd.ssh** to change the directory to.ssh, as I have done. OR accessing the remote.ieng6 server.
+
      
 3) *A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.*  
 ![Image3](Pic3.png)
